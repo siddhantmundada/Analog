@@ -64,7 +64,29 @@
 
 
 
+<link id="theme" href="https://dz8fbjd9gwp2s.cloudfront.net/resources/themes/default/spectre.min.css" rel="stylesheet">
+<link id="theme-exp" href="https://dz8fbjd9gwp2s.cloudfront.net/resources/themes/default/spectre-exp.min.css" rel="stylesheet">
 
+<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+      rel="stylesheet">
+
+<link href="https://dz8fbjd9gwp2s.cloudfront.net/resources/stylesheets/sstyles.css?v=983c54a6a965f976078380a93e52a95c" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://dz8fbjd9gwp2s.cloudfront.net/resources/css/jquery.datetimepicker.css?v=1">
+
+ <link rel="stylesheet" href="https://dz8fbjd9gwp2s.cloudfront.net/resources/css/intlTelInput.css?v=1">
+ 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Rubik"/> 
+
+
+
+
+	<link rel="stylesheet" href="https://dz8fbjd9gwp2s.cloudfront.net/resources/stylesheets/sstore.css?v=774743abcc6dbd8844e698c25673b6a5"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	
+		
 		
 		 
 			<style type="text/css">
@@ -160,7 +182,7 @@ font-family: 'Poppins', sans-serif!important;
 		   	}
 	   })
 	};
-	
+	var RESCDN = "https://dz8fbjd9gwp2s.cloudfront.net";
 </script>
 
 
@@ -173,7 +195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-N29TV78');</script>
 <!-- End Google Tag Manager -->
 
-
+<meta name="facebook-domain-verification" content="wpxv3do3593j5wwolaovk14djlkce7" />
 
 
 	
@@ -205,7 +227,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		  
 		  <div id="navbar-section-btn">
 		  	
-				<a href="javascript:void(0);" class="btn btn-link badge cartBtn mr-2" data-badge="1"><i class="material-icons">shopping_cart</i></a>
+				<a href="javascript:void(0);" class="btn btn-link badge cartBtn mr-2" data-badge="0"><i class="material-icons">shopping_cart</i></a>
 			
 		  	<a class="btn btn-link btn-action ml-2" id="header-collapse-btn"  href="javascript:void(0);">
 				<i class="icon-menu material-icons">menu</i>
@@ -237,7 +259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					
 						
 						
-							<a href="javascript:void(0);" class="btn btn-link badge cartBtn hide-md" data-badge="1"><i class="material-icons">shopping_cart</i></a>
+							<a href="javascript:void(0);" class="btn btn-link badge cartBtn hide-md" data-badge="0"><i class="material-icons">shopping_cart</i></a>
 						
 					
 		    			<a href="javascript:void(0);" class="btn btn-primary loginBtn">Login</a>
@@ -462,7 +484,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="modal-title h5">
 					<i class="material-icons">shopping_cart</i>
 					Cart
-					(<span class="cartCount">1</span>
+					(<span class="cartCount">0</span>
 					Items
 					)
 				</div>
@@ -1157,7 +1179,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://browser.sentry-cdn.com/6.2.1/bundle.min.js"
   integrity="sha384-VXBbKp5OEiVPansWgHB3LwMPIIE2KgmeyEg0N9kG6WPgGxoEdrlnpq6mlEsKLW0B"
   crossorigin="anonymous" ></script>
+<script type="text/javascript">
+Sentry.init({
+	  dsn: "https://01359214f4884de38869b7852be0ca1b@o533649.ingest.sentry.io/5653038",
+	  release:"Collab-" + "cd83841ef-course feedback changes",
+	  environment: "prod",
+	});
 
+</script>
 <script type="text/javascript">
 window.onerror = function (msg, url, lineNo, columnNo, error) {
         Sentry.captureException(error);
